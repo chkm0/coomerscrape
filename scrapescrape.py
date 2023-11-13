@@ -86,7 +86,7 @@ if __name__ == "__main__":
         else:
             print("\nNo Coom today")
 
-        with open('URLs', 'w') as output_file:
+        with open('URLs.txt', 'w') as output_file:
             for profile in found_profiles:
                 output_file.write(profile + '\n')
 
